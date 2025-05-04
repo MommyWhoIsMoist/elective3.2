@@ -36,8 +36,7 @@ def main():
         if choice == "1":
             run_dataset_analysis("dataset1.py")
         elif choice == "2":
-            print("Dataset 2 analysis not implemented yet")
-            input("Press Enter to continue...")
+            run_dataset_analysis("dataset2.py")
         elif choice == "3":
             print("\nExiting the program. Goodbye!")
             break
